@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 
 // Packages
-const request = require('request-promise');
+const request = require('request');
 const colors = require('colors');
 
 // Contsts
@@ -24,8 +24,9 @@ if (dolar !== 'dolar') {
   return;
 }
 
-request(`http://apilayer.net/api/live?access_key=${CURRENCY_SERVICE_API_KEY}`)
-  .then((res) => {
-    const { quotes: { USDUAH } } = JSON.parse(res);
-    console.log('\t', '1'.green, 'USD'.yellow, '=', USDUAH.toString().green, 'UAH'.yellow);
-  });
+request(`http://apilayer.net/api/live?access_key=${CURRENCY_SERVICE_API_KEY}`, (error, _, body) => {
+  if (error) throw new Error(error);
+
+  const { quotes: { USDUAH } } = JSON.parse(body);
+  console.log('\t', '1'.green, 'USD'.yellow, '=', USDUAH.toString().green, 'UAH'.yellow);
+});
