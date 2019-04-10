@@ -1,0 +1,25 @@
+{
+  "name": "baks",
+  "version": "1.0.0",
+  "description": "Get current USD to UAH exchange rate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "po": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jestersunborn/baks.git"
+  },
+  "author": "Serhiy Boreyko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jestersunborn/baks/issues"
+  },
+  "homepage": "https://github.com/jestersunborn/baks#readme",
+  "dependencies": {
+    "colors": "^1.3.3"
+  }
+}
