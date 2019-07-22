@@ -2,7 +2,7 @@
 
 // Packages
 const colors = require('colors');
-const http = require('http');
+const getRate = require('./request');
 
 // Arguments
 const byvniv = process.argv[2];

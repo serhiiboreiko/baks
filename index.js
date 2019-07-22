@@ -2,11 +2,7 @@
 
 // Packages
 const colors = require('colors');
-const http = require('http');
 const getRate = require('./request');
-
-// Consts
-const CURRENCY_SERVICE_API_KEY = 'dca86c49ab9a11316422ed8987ddb50a';
 
 // Arguments
 const chem = process.argv[2];
