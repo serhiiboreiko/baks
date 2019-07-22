@@ -1,6 +1,6 @@
 {
   "name": "baks",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Get current USD to UAH exchange rate.",
   "main": "index.js",
   "scripts": {
