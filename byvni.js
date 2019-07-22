@@ -16,5 +16,5 @@ if (byvniv !== 'byvniv') {
 }
 
 getRate((rate) => {
-  console.log('\t', `${value}`.green, 'USD'.yellow, '=', (USDUAH * value).toString().green, 'byvniv'.yellow);
+  console.log('\t', `${value}`.green, 'USD'.yellow, '=', (rate * value).toString().green, 'byvniv'.yellow);
 });
