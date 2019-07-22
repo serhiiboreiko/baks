@@ -11,7 +11,7 @@ const value = Number(process.argv[3]);
 console.log();
 
 if (byvniv !== 'byvniv') {
-  console.log('Skilky chogo?');
+  console.log('\t', 'Skilky chogo?'.red);
   return;
 }
 
