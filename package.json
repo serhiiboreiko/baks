@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "po": "index.js"
+    "po": "index.js",
+    "skilky": "index.js --byvni"
   },
   "repository": {
     "type": "git",
