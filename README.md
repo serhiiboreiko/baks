@@ -21,7 +21,7 @@ yarn global add baks
 ## Usage
 
 ```bash
-po chem dolar
+po kiko dolar
 ```
 
 ```bash
